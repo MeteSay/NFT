@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.nftcard{
+
+ width: 300px;
+ border-radius: 20px;
+ border: solid 3px gray;
+ display: flex;
+ flex-direction: column;
+ margin-top: 10%;
+ background-color: hsl(216, 50%, 16%);
+ padding: 15px;
+}
+
+img{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.name{
+    margin-bottom: 10px;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.des{
+    margin-bottom: 10px;
+    color: gray;
+    
+}
+
+.prizeandtime{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.prize{
+    display: flex;
+}
+
+.eth{
+    margin-left: 10px;
+    font-weight: bold;
+    color: aqua;
+}
+
+.time{
+    display: flex;
+    color:grey;
+}
+
+.creator{
+    display: flex;
+   
+    
+    margin-top: 20px;
+
+}
+
+.jules{
+    width: 50px;
+    height: auto;
+}
+
+.author{
+    margin-left: 14px;
+    margin-top: 5%;
+    color: aliceblue;
+}
+
+.creationof{
+    color: gray;
+    margin-right: 5px;
+}
+
+
+
+
